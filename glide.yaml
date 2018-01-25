@@ -1,0 +1,8 @@
+package: github.com/dirk1492/raft-consul
+import:
+- package: github.com/hashicorp/consul
+  version: ^1.0.3
+  subpackages:
+  - api
+- package: github.com/hashicorp/raft
+  version: ^1.0.0
