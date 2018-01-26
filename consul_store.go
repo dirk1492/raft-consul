@@ -37,9 +37,6 @@ type Config struct {
 	Timeout time.Duration
 	Prefix  string
 
-	firstIndex uint64
-	lastIndex  uint64
-
 	HTTPBasicAuth *api.HttpBasicAuth
 	TLSConfig     *api.TLSConfig
 }
